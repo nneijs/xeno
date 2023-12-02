@@ -1,0 +1,24 @@
+{
+  "name": "xeno",
+  "version": "0.0.1",
+  "description": "Welcome to Xeno, a lightweight and intuitive web library for building user interfaces with ease.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nneijs/xeno.git"
+  },
+  "keywords": [
+    "webui",
+    "easy",
+    "beginner-friendly"
+  ],
+  "author": "nnei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nneijs/xeno/issues"
+  },
+  "homepage": "https://github.com/nneijs/xeno#readme"
+}
