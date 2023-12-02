@@ -1,4 +1,5 @@
-namespace MyTSUILibrary {
+// my-ts-ui-library.ts
+namespace xeno {
     export interface ButtonProps {
         label: string;
         onClick: () => void;
@@ -16,6 +17,11 @@ namespace MyTSUILibrary {
 
     export function mount(component: HTMLElement, containerId: string): void {
         const container = document.getElementById(containerId);
-        container.appendChild(component);
+    
+        if (container) {
+            container.appendChild(component);
+        } else {
+            console.error(`Container with id '${containerId}' not found.`);
+        }
     }
-}
+}    
