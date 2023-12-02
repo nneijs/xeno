@@ -1,6 +1,6 @@
-# EasyUI Library
+# Xeno Library
 
-Welcome to EasyUI, a lightweight and intuitive web library for building user interfaces with ease. Whether you're a seasoned developer or just starting out, EasyUI empowers you to create beautiful and functional UIs with a simple and straightforward syntax.
+Welcome to Xeno, a lightweight and intuitive web library for building user interfaces with ease. Whether you're a seasoned developer or just starting out, Xeno empowers you to create beautiful and functional UIs with a simple and straightforward syntax.
 
 ## Features
 
@@ -12,7 +12,7 @@ Welcome to EasyUI, a lightweight and intuitive web library for building user int
 
 - **Custom Styling**: Tailor the look and feel of your UI with customizable styling options. Easily match your application's design language without wrestling with intricate CSS.
 
-- **Extensible and Lightweight**: Keep your project light and nimble. EasyUI is designed to be minimalistic and highly extensible, allowing you to add only the features you need.
+- **Extensible and Lightweight**: Keep your project light and nimble. Xeno is designed to be minimalistic and highly extensible, allowing you to add only the features you need.
 
 ## Getting Started
 
