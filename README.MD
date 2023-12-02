@@ -42,8 +42,6 @@ myInput.appendTo(document.body);
 myModal.appendTo(document.body);
 ```
 
-For more detailed examples and documentation, visit our [documentation site](https://easyui-library-docs.com).
-
 ## Contributing
 
 We welcome contributions from the community. If you find a bug, have a feature request, or want to contribute code, please check out our [contribution guidelines](CONTRIBUTING.md).

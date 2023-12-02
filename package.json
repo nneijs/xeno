@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/nneijs/xeno/issues"
   },
-  "homepage": "https://github.com/nneijs/xeno#readme"
+  "homepage": "https://github.com/nneijs/xeno#readme",
+  "dependencies": {
+    "xenopackage": "^0.0.1"
+  }
 }
