@@ -16,7 +16,7 @@
     "beginner-friendly"
   ],
   "author": "nnei",
-  "license": "ISC",
+  "license": "CODE_OF_CONDUCT.md",
   "bugs": {
     "url": "https://github.com/nneijs/xeno/issues"
   },

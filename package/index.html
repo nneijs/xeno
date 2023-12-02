@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="dist/my-ts-ui-library.js"></script>
+    <title>My TypeScript UI Library Example</title>
+</head>
+<body>
+    <div id="app">
+    </div>
+</body>
+</html>
+<body>
+    <div id="app">
+        <script>
+            const myButton = MyTSUILibrary.Button({
+                label: 'Click me!',
+                onClick: () => alert('Button clicked!'),
+            });
+
+            MyTSUILibrary.mount(myButton, 'app');
+        </script>
+    </div>
+</body>
+</html>
