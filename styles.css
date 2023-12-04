@@ -1,2 +1,15 @@
-/* styles.css */
-/* Add styles for my UI components here since im lazy ill do it later */
+.my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+    background-color: #2980b9;
+}

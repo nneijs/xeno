@@ -1,50 +1,52 @@
-# Xeno Library
+Certainly! A good README helps users understand what your library is about, how to use it, and any other relevant information. Here's a simple README for your TypeScript UI library:
 
-Welcome to Xeno, a lightweight and intuitive web library for building user interfaces with ease. Whether you're a seasoned developer or just starting out, Xeno empowers you to create beautiful and functional UIs with a simple and straightforward syntax.
+```markdown
+# Xeno
 
-## Features
+Xeno is a lightweight library for creating user interfaces with easy syntax. It provides a simple button component with basic styling.
 
-- **Easy Syntax**: Get rid of the complexity with our straightforward syntax. Create UI elements effortlessly without sacrificing customization.
+## Installation
 
-- **Responsive Design**: Build responsive and mobile-friendly interfaces that adapt seamlessly to different screen sizes and devices.
-
-- **Component Library**: Explore a rich set of pre-built components like buttons, forms, modals, and more. Boost your productivity by leveraging our extensive component library.
-
-- **Custom Styling**: Tailor the look and feel of your UI with customizable styling options. Easily match your application's design language without wrestling with intricate CSS.
-
-- **Extensible and Lightweight**: Keep your project light and nimble. Xeno is designed to be minimalistic and highly extensible, allowing you to add only the features you need.
-
-## Getting Started
-
-### Installation
+Install the library using npm:
 
 ```bash
 npm install xenopackage
 ```
 
-### Usage
+## Usage
 
-```javascript
-import { Button, Input, Modal } from 'xenopackage';
+### Button Component
 
-// Create a button
-const myButton = new Button('Click me');
+To use the button component, import it into your TypeScript or JavaScript code and create an instance:
 
-// Create an input field
-const myInput = new Input('text', 'Enter text');
+```typescript
+import { Button, mount } from 'xenopackage';
 
-// Create a modal
-const myModal = new Modal('My Modal', 'This is the content of the modal');
+const myButton = Button({
+    label: 'Click me!',
+    onClick: () => alert('Button clicked!'),
+});
 
-// Append elements to the DOM
-myButton.appendTo(document.body);
-myInput.appendTo(document.body);
-myModal.appendTo(document.body);
+mount(myButton, 'app');
 ```
 
-## Contributing
+The `Button` function takes an object with `label` and `onClick` properties. The `mount` function is used to append the component to a specified container.
 
-We welcome contributions from the community. If you find a bug, have a feature request, or want to contribute code, please check out our [contribution guidelines](CONTRIBUTING.md).
+### Styling
 
+The button component comes with basic styling, including a background color, padding, and a hover effect. You can customize the styles by modifying the `styles.css` file in your project.
 
-Happy coding with Xeno! 🚀
+## Styles
+
+Include the library styles in your HTML file:
+
+```html
+<link rel="stylesheet" href="node_modules/your-library-name/styles.css">
+```
+
+Feel free to customize the styles to fit your design preferences.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.MD) file for details.
+```
