@@ -1,5 +1,3 @@
-Certainly! A good README helps users understand what your library is about, how to use it, and any other relevant information. Here's a simple README for your TypeScript UI library:
-
 ```markdown
 # Xeno
 
