@@ -1,4 +1,3 @@
-```markdown
 # Xeno
 
 Xeno is a lightweight library for creating user interfaces with easy syntax. It provides a simple button component with basic styling.
@@ -42,9 +41,7 @@ Include the library styles in your HTML file:
 <link rel="stylesheet" href="node_modules/your-library-name/styles.css">
 ```
 
-Feel free to customize the styles to fit your design preferences.
-
-## License
+# LICENSE
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.MD) file for details.
 ```
